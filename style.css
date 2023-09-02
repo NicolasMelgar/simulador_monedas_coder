@@ -1,3 +1,6 @@
+
+/*Separo todo del body con respecto a margen padding y contenido*/
+/*------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +11,12 @@ body {
     background-color: #f2f2f2;
     transition: background-color 0.3s ease;
 }
+/*------------------------------*/
+
 
 /*----------------------------*/
 /* Esta clase se aplica automáticamente a la ventana que esta en el JS */
+/*Todos los comentarios pueden ser eliminados una vez decida el color y todo lo demás*/
 
 .swal-overlay {
     /*background-color: rgb(43, 165, 137); /*lO DEJO SIN RGBA PORQUE ASÍ TAPA LA PANTALLA*/
@@ -63,6 +69,7 @@ h2 {
     transition: color 0.3s ease;
 }
 
+/*Este formato es más corto que el usado originalmente*/
 p, label, ol {
     margin-bottom: 15px;
     font-size: 18px;
@@ -72,11 +79,11 @@ p, label, ol {
 ol {
     margin-left: 30px;
 }
-
+/*---------------------------*/
 
 
 select, input {
-    line-height: 2rem;
+    line-height: 2rem; /*El line height le da una altura al renglón y deja un espacio que creo necesita la página*/
     padding: 10px;
     font-size: 18px;
     width: 100%;
@@ -102,6 +109,8 @@ button {
     margin: 20px auto;
 }
 
+/*Si cada este div porque solo deja el alert, esto se puede borrar*/
+/*--------------------*/
 #resultado {
     font-size: 22px;
     font-weight: bold;
@@ -114,6 +123,8 @@ button {
     transition: background-color 0.3s ease;
     color: #333;
 }
+/*----------------------------------*/
+
 
 .modo-oscuro-activado {
     background-color: #333;
